@@ -1,5 +1,5 @@
 This application represents a sample stock market. This application was compiled with Java version 1.8.0_73.
-The root StockExchange folder has the following subfolders:
+The root SuperSimpleStocks folder has the following subfolders:
 
 bin: compiled Java classes (Java version 1.8.0_73)
 src: Java sources
