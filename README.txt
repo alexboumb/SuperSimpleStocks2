@@ -255,7 +255,7 @@ Sold 20 shares of GIN at price 150
 The volume weighted stock price for TEA based on trades in the past 5 minutes is 96.0
 The volume weighted stock price for GIN based on trades in the past 5 minutes is 120.0
 The All Share Index is 107.33126291998991
-Sleeping 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated based on trades only in the past 5 minutes
+Sleeping 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated based on transactions only from the last 5 minutes
 Sold 10 shares of TEA at price 80
 Bought 10 shares of TEA at price 60
 Bought 10 shares of GIN at price 60
@@ -268,7 +268,7 @@ The unit tests can also be run directly, without invoking the command interface:
 
 java com.supersimplestocks.test.StockTradeTest
 Starting tests
-Sleeping 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated based on trades only in the past 5 minutes
+Sleeping 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated based on transactions only from the last 5 minutes
 All tests have finished successfully
 
 2. Documentation
