@@ -1,0 +1,7 @@
+com.supersimplestocks.business
+com.supersimplestocks.data
+com.supersimplestocks.data.resources
+com.supersimplestocks.data.validation
+com.supersimplestocks.exceptions
+com.supersimplestocks.logging
+com.supersimplestocks.test
