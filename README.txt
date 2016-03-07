@@ -260,8 +260,8 @@ Sold 10 shares of TEA at price 80
 Bought 10 shares of TEA at price 60
 Bought 10 shares of GIN at price 60
 Sold 20 shares of GIN at price 120
-The volume weighted stock price for TEA based on trades in the past 5 minutes is 70.0
-The volume weighted stock price for GIN based on trades in the past 5 minutes is 100.0
+The volume weighted stock price for TEA from transactions during the last 5 minutes is 70.0
+The volume weighted stock price for GIN from transactions during the last 5 minutes is 100.0
 The All Share Index is 83.66600265340756
 
 The unit tests can also be run directly, without invoking the command interface:
