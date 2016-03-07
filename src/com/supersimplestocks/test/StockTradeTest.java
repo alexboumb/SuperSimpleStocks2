@@ -60,8 +60,8 @@ public class StockTradeTest {
             
             assertTrue (stockTrader.getGBCEAllShareIndex() == Math.sqrt(11520), Messages.ERR_ALL_SHARE_INDEX_INCORRECT);
             
-            //sleep 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated
-            //based on trades only in the past 5 minutes
+            //Sleep 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated
+            //based on transactions only from the last 5 minutes
             Logger.log(Messages.MSG_SLEEP);
             Thread.sleep(6 * 60 * 1000);
             

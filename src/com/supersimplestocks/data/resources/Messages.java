@@ -89,7 +89,7 @@ public class Messages {
     public static final String MSG_TESTS_FINISH = "All tests have finished successfully";
     
     //Sleep 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price is calculated
-    //based on trades in the past 5 minutes
+    //based on transactions only from the last 5 minutes
     public static final String MSG_SLEEP = "Sleeping 6 minutes to ensure that in the subsequent transactions the Volume Weighted Stock Price"
-            + "is calculated based on trades only in the past 5 minutes";
+            + "is calculated based on transactions only from the last 5 minutes";
 }
